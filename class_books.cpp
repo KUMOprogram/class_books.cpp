@@ -449,25 +449,25 @@ vector <Book> bubblebeam(vector <Book> bubblebooks)
 		{
 			if(bubblebooks[i].getprice()<bubblebooks[j].getprice())
 			{
-                double c=bubblebooks[i].getprice();
-                bubblebooks[i].setprice(bubblebooks[j].getprice());
-                bubblebooks[j].setprice(c);
-
-                string c1=bubblebooks[i].getisbn();
-                bubblebooks[i].setisbn(bubblebooks[j].getisbn());
-                bubblebooks[j].setisbn(c1);
-
-                c1=bubblebooks[i].gettitle();
-                bubblebooks[i].settitle(bubblebooks[j].gettitle());
-                bubblebooks[j].settitle(c1);
-
-                c1=bubblebooks[i].getauthor();
-                bubblebooks[i].setauthor(bubblebooks[j].getauthor());
-                bubblebooks[j].setauthor(c1);
-
-                c1=bubblebooks[i].getsubject();
-                bubblebooks[i].setsubject(bubblebooks[j].getsubject());
-                bubblebooks[j].setsubject(c1);
+			        double c=bubblebooks[i].getprice();
+			        bubblebooks[i].setprice(bubblebooks[j].getprice());
+			        bubblebooks[j].setprice(c);
+			
+			        string c1=bubblebooks[i].getisbn();
+			        bubblebooks[i].setisbn(bubblebooks[j].getisbn());
+			        bubblebooks[j].setisbn(c1);
+			
+			        c1=bubblebooks[i].gettitle();
+			        bubblebooks[i].settitle(bubblebooks[j].gettitle());
+			        bubblebooks[j].settitle(c1);
+			
+			        c1=bubblebooks[i].getauthor();
+			        bubblebooks[i].setauthor(bubblebooks[j].getauthor());
+			        bubblebooks[j].setauthor(c1);
+			
+			        c1=bubblebooks[i].getsubject();
+			        bubblebooks[i].setsubject(bubblebooks[j].getsubject());
+			        bubblebooks[j].setsubject(c1);
 			}
 		}
 	}
@@ -482,25 +482,25 @@ vector <Book> bubblegun(vector <Book> bubblebooks)
 		{
 			if(bubblebooks[i].getprice()>bubblebooks[j].getprice())
 			{
-                double c=bubblebooks[i].getprice();
-                bubblebooks[i].setprice(bubblebooks[j].getprice());
-                bubblebooks[j].setprice(c);
-
-                string c1=bubblebooks[i].getisbn();
-                bubblebooks[i].setisbn(bubblebooks[j].getisbn());
-                bubblebooks[j].setisbn(c1);
-
-                c1=bubblebooks[i].gettitle();
-                bubblebooks[i].settitle(bubblebooks[j].gettitle());
-                bubblebooks[j].settitle(c1);
-
-                c1=bubblebooks[i].getauthor();
-                bubblebooks[i].setauthor(bubblebooks[j].getauthor());
-                bubblebooks[j].setauthor(c1);
-
-                c1=bubblebooks[i].getsubject();
-                bubblebooks[i].setsubject(bubblebooks[j].getsubject());
-                bubblebooks[j].setsubject(c1);
+		                double c=bubblebooks[i].getprice();
+		                bubblebooks[i].setprice(bubblebooks[j].getprice());
+		                bubblebooks[j].setprice(c);
+		
+		                string c1=bubblebooks[i].getisbn();
+		                bubblebooks[i].setisbn(bubblebooks[j].getisbn());
+		                bubblebooks[j].setisbn(c1);
+		
+		                c1=bubblebooks[i].gettitle();
+		                bubblebooks[i].settitle(bubblebooks[j].gettitle());
+		                bubblebooks[j].settitle(c1);
+		
+		                c1=bubblebooks[i].getauthor();
+		                bubblebooks[i].setauthor(bubblebooks[j].getauthor());
+		                bubblebooks[j].setauthor(c1);
+		
+		                c1=bubblebooks[i].getsubject();
+		                bubblebooks[i].setsubject(bubblebooks[j].getsubject());
+		                bubblebooks[j].setsubject(c1);
 			}
 		}
 	}
