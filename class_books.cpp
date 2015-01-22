@@ -94,16 +94,16 @@ double Book::getprice()
 
 _Bool Book::find(string searcher)
 {
-	if (isbn==searcher)
+	if (isbn.find(searcher)!=string::npos)
 	{
 		return 1;
-	}else if (title==searcher)
+	}else if (title.find(searcher)!=string::npos)
 	{
 		return 1;
-	}else if (author==searcher)
+	}else if (author.find(searcher)!=string::npos)
 	{
 		return 1;
-	}else if (subject==searcher)
+	}else if (subject.find(searcher)!=string::npos)
 	{
 		return 1;
 	}else{
